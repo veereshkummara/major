@@ -1,0 +1,664 @@
+00:02 hi this is eric johnson
+00:04 it's february 18 2021 and this is the
+00:07 engineering key review at get lab
+00:09 um so i've got
+00:13 number four in the agenda which is a
+00:16 proposal to break up this meeting into
+00:18 four department key reviews so currently
+00:21 this is engineering
+00:23 development quality security and ux
+00:27 infrastructure and support do their
+00:30 own key reviews already i have the
+00:32 reasons why increased visibility
+00:34 able to go deeper
+00:36 [Music]
+00:37 increase the objectivity with which my
+00:39 reports can manage their groups
+00:41 allow me more time to focus on new
+00:43 markets and
+00:44 allow me to shift into more of a
+00:45 question asker mode than generating
+00:48 content and answering questions in these
+00:49 meetings
+00:50 um and but to avoid adding three net new
+00:53 meetings to stakeholders calendars i
+00:55 propose we do a sort of two-month
+00:56 rotation so
+00:57 month one development quality go month
+00:60 two security and ux
+01:01 would go
+01:05 how do people feel about that proposal
+01:08 i think in the group conversations it's
+01:11 working really well um
+01:13 so i'm i'm supportive and uh
+01:17 this is the smallest thing maybe we need
+01:20 four meetings a month like it's the
+01:22 biggest apartment it's super essential
+01:24 but you propose this i don't uh
+01:28 i could see either way so let's stick
+01:29 with the proposal
+01:32 cool we'll try it and we'll uh we can be
+01:34 flexible i mean the development is
+01:36 larger maybe they go more frequently or
+01:37 something like that but we'll see how
+01:38 see how it goes all right and then i've
+01:42 got number five
+01:44 um which is uh we've got
+01:47 um r d overall
+01:50 mr rate and we also have r d wider mr8
+01:53 both as
+01:54 top-level kpis for engineering so the
+01:57 difference between them in the simplest
+01:60 sense is that
+02:01 r d wider mr8 includes both community
+02:04 contributions
+02:05 and community mrs the problems i see
+02:09 with this
+02:09 are that one the wider mr rate uh the
+02:12 one that includes internal and external
+02:14 mrs
+02:15 it duplicates the overall mra which is
+02:18 sorry sorry the wider mr rates should
+02:22 just be
+02:23 external right and then overall
+02:27 should be narrow plus wider
+02:31 oh yeah like we say the wider community
+02:35 right right okay so there's
+02:40 i'll have to check the taxonomy
+02:44 lily can you uh can you confirm sensory
+02:47 that's that's
+02:47 sid's reasoning is my my understanding
+02:49 as well
+02:51 yeah i believe water uh mr rate just
+02:54 captures
+02:55 community contributions only and no
+02:58 internal
+02:59 yeah and the reason we measure that is
+03:01 that like one of the
+03:02 most likely failure modes is that we
+03:05 lose the community
+03:07 yeah so eric where it gets goofy is
+03:11 is that um when you look at a specific
+03:14 team within the company
+03:15 there could be contributions outside of
+03:17 that that aren't community contributions
+03:19 they would be viewed community
+03:20 contributions by that group but
+03:22 effectively
+03:23 they're not from outside the company so
+03:25 that's why we use wider
+03:26 to kind of reflect that and narrow is
+03:28 very specific to the team
+03:31 are you saying that if uh someone in
+03:33 plan contributes to verify it's viewed
+03:35 as wider
+03:37 not quite that uh plan plan and verify
+03:40 are just fine
+03:41 uh it's when you look at uh like the
+03:43 development versus infrastructure
+03:45 infrastructure will oftentimes
+03:46 contribute to developments
+03:48 work but it won't be counted uh as mrs
+03:52 okay that's a that's a potential bit of
+03:54 funkiness that
+03:55 we should talk about separately i didn't
+03:57 have that in my sort of critique of this
+03:58 but that
+03:59 that doesn't necessarily make intuitive
+04:01 sense to me
+04:02 um so so then i think um part of my
+04:06 uh critique of this can be thrown out
+04:08 because it's not as duplicative as i
+04:09 thought
+04:10 but i still think there's a problem with
+04:12 r d wider mri which is
+04:14 this thing doesn't really move in part
+04:17 because it's a it's a rate so it feels
+04:19 like
+04:19 the way to drive this up is to
+04:21 specifically drive
+04:23 community authors to contribute more
+04:25 than one mr
+04:26 per month that's how this moves up
+04:28 because it's a it's a productivity rate
+04:29 like we use internally
+04:31 and that doesn't necessarily feel like
+04:32 the right thing because there's
+04:33 scenarios in which this goes up
+04:35 we've actually got less contributions
+04:36 overall and less contributors
+04:38 overall wait wait wait a second so
+04:41 you're saying that r
+04:42 d wider mr rate is number mrs
+04:46 per external contributor oh my goodness
+04:50 that should not be the thing it should
+04:53 be
+04:54 contributions per gitlab team member so
+04:57 the country
+04:58 those the the the thing above
+05:01 the division is the external ones the
+05:05 thing below is the number of team
+05:07 members at gitlab
+05:10 is that the case lily i'm checking right
+05:14 now
+05:14 um i think so international
+05:19 team member so unless we start calling
+05:21 people outside the company team member
+05:23 then it shouldn't be done
+05:26 yeah just clarifying here so our
+05:27 numerator is community contributions and
+05:30 then
+05:30 our denominator is uh
+05:33 gitlab team members so it's not per
+05:37 external um member
+05:47 so we so what we're doing there eric is
+05:51 we're not trying to say how many how
+05:54 many
+05:54 mrs does someone send if they send
+05:56 something
+05:58 we're saying how many mrs from external
+06:00 do we get
+06:01 for the size of our organization
+06:16 sorry i have a childhood emergency
+06:18 outside the door
+06:22 so so the maybe explain the context
+06:25 behind this the context is as we grow as
+06:27 a company we should make sure we
+06:29 we keep the community up like the
+06:31 logical thing is for the community to
+06:32 flatline and the size of the orc to go
+06:34 and before you know it you've kind of
+06:36 outgrown
+06:37 the wider community
+06:41 yeah and what i'm seeing is we we
+06:43 created this pre-sophisticated taxonomy
+06:45 with prefixes and post-fixes to talk
+06:47 about these things
+06:48 but in reality we've only got two of
+06:50 them and it's
+06:51 we keep forgetting we have a hard time
+06:53 discussing this thing so i'd rather just
+06:55 name them simply some two names for what
+06:59 they are rather than
+07:00 than using the taxonomy but also like
+07:03 in f i have the proposal of like what if
+07:05 we just tracked as a kpi of the
+07:07 percentage of total mrs that come from
+07:08 the community over time and we would see
+07:10 that drop
+07:11 i love that i love that let's do that
+07:13 instead
+07:15 okay but the the the thing the thing why
+07:18 we have this complex thing
+07:20 is because you can game that you you
+07:23 want to game that
+07:24 you just produce fewer mrs with the
+07:26 engineers at gitlab
+07:28 so if you drive that really hard and say
+07:30 this is your number one goal
+07:32 it's very easy to achieve you just tell
+07:33 all your engineers to produce half
+07:37 yeah so we have we have different
+07:38 metrics to prevent that from happening
+07:40 the same way that like support slas and
+07:42 sac kind of buttress one another i think
+07:44 we're we're robust to that but
+07:46 simplifying this would make these
+07:48 conversations go much if
+07:50 if you as our cto don't even understand
+07:52 them
+07:53 we went overboard so i'm supportive you
+07:56 understand them and i forgot
+07:57 and i was reviewing this stuff this
+07:58 morning i'm like there's a problem with
+07:60 this and then you just remind me of the
+08:01 context so yeah if i can't hold up my
+08:03 head
+08:03 percentage that come from the community
+08:05 i love that it's what all our investors
+08:07 ask about let's do that
+08:09 okay cool so um lily if you can work
+08:12 with uh
+08:13 max to make that transition that would
+08:15 be great and i'll bowl the one that
+08:17 we're talking about at roman numeral 3.
+08:19 thanks uh
+08:21 i'm on the call sorry it was a bit late
+08:23 uh timeline we do have
+08:24 pis on the raw number of community mrs
+08:27 and we can make make the shift
+08:29 and why they're confirming from the
+08:31 definition i think why that only
+08:32 counts for community and then that's
+08:36 that's what the definition is
+08:39 cool all right so uh number six
+08:43 then christopher
+08:48 sorry i was looking up to see if i had
+08:49 the percentage graph because i think we
+08:51 played around with this at one point and
+08:53 had a draft of that
+08:55 probably about five months back if i can
+08:57 remember lilly
+08:59 um just in fyi uh the month of february
+09:02 if you were looking at any
+09:03 particular metrics particularly in
+09:05 development at mr8
+09:08 uh we haven't had updates in four days
+09:10 there's apparently a lag
+09:11 issue that's been uh problematic uh for
+09:14 the data team to
+09:15 basically get uh updated messages
+09:20 updated metrics and they're working on
+09:21 that okay
+09:23 i'm sorry mike you got the next one
+09:27 uh so yeah i i there's some some color
+09:30 there on on the
+09:31 mitigation the the lag later on uh
+09:35 onto onto seven uh we continue i said
+09:38 fyi in addition to the kpi status
+09:41 i'm sorry i wanted to just touch on the
+09:43 postgres
+09:44 replication issue there real quick um
+09:46 i've i've been trying to get my arms
+09:48 wrapped around it
+09:50 do we have the right attention to this
+09:53 this is kind of
+09:54 eric i don't know if you were commenting
+09:56 on
+09:58 hinting towards this in the last meeting
+09:60 around some of the infrastructure
+10:01 improvements on the product side i'm
+10:02 just not quite sure whose responsibility
+10:05 is to
+10:06 focus on getting a handle on
+10:09 some of the constraints we have in
+10:10 replication
+10:13 yeah the what i was mentioning in the in
+10:14 the product key review about an hour ago
+10:17 i think is sort of like unrelated um and
+10:19 so i think
+10:20 the dri needs to be your kind of data
+10:23 engineering team but of course there's a
+10:24 dependency on infrastructure because
+10:26 that's where the data is being piped
+10:27 from they they do own that data source
+10:30 yeah i'll say for the replication lag on
+10:33 that slave host where
+10:35 i'm sorry not the on the the uh
+10:38 secondary host where um uh
+10:42 the data is being pulled from like the
+10:43 infrastructure would be the dri for that
+10:45 and so um any escalations
+10:47 but well i'll own those and i know we
+10:49 have uh an action plan for that as far
+10:52 as creating
+10:52 uh another dedicated host um just for
+10:55 the
+10:56 data team to pull from okay
+11:00 i did actually uh i saw that issue and i
+11:03 did talk to
+11:04 craig gomes a little bit as well on the
+11:06 database side just to see if there's
+11:07 some
+11:08 database improvements and i'm still
+11:10 trying to figure out
+11:11 you know if it's truly just a dedicated
+11:14 computational sort of resource a server
+11:17 or if there's actually some some
+11:20 database
+11:21 tuning that needs to occur do you have a
+11:23 sense of that
+11:24 there's so i'd say it's it's three
+11:27 different things um
+11:28 it's having a dedicated host
+11:31 um that doesn't have conflicting query
+11:33 traffic coming from
+11:35 um other other workloads um
+11:38 there are some uh tuning performance
+11:41 or tuning improvements to be made and
+11:44 then there's also
+11:45 improvements in and this is where it
+11:47 does maybe relate a little bit to
+11:49 what the topic was in the last review
+11:52 basically the the overall demand on the
+11:55 database layer
+11:56 from um from com activities and and like
+11:59 improving those so it's
+12:00 it's definitely not just one of those
+12:02 things um but one of the
+12:04 the most specific actions uh we're going
+12:07 to take though
+12:08 is separating out and having a dedicated
+12:10 house so that we're just dealing with
+12:12 the profile of the data engineering
+12:14 traffic on there
+12:15 um and and not having conflicting query
+12:19 um uh conflicting queries uh
+12:22 affect the ability to um to update the
+12:25 replication
+12:27 steve i definitely want to partner with
+12:29 you on this one because i don't i think
+12:30 the the demand
+12:31 on those databases is only going to
+12:33 increase it's not going down
+12:35 and i think we need to get i'm still
+12:38 unclear
+12:39 on uh where to focus in to get the
+12:41 biggest bang for the buck i think if the
+12:43 computational resource
+12:44 dedication that's going to be a good
+12:46 thing but i'll probably going to squeeze
+12:47 the balloon
+12:48 and then the next uh area will unearth
+12:51 itself
+12:52 okay and i'll tell you what i'll put
+12:53 into the infraki review for next week
+12:56 um okay an update on on this issue
+12:59 thank you steve
+13:06 so then back to mecca on seven or
+13:11 yes
+13:14 thank you uh and rob was in the
+13:16 assassin's incident this morning as well
+13:18 uh ryan just said we have the attention
+13:20 there uh number seven
+13:22 just to provide an update on previous
+13:24 conversations
+13:25 uh we're continuing to improve uh defect
+13:27 tracking and against slos
+13:29 there is a first iteration pi that we
+13:31 are experimenting to show
+13:33 a percentage of defects meeting the slos
+13:37 key findings as ones are hovering at 80
+13:40 percent
+13:40 s2 at 60. we've been focused mostly on
+13:44 s1 s2 at this point
+13:45 as hence why s3 and s4 are lower
+13:49 uh and this this will likely be the case
+13:52 we are also in point b are working on
+13:54 the measurement for average
+13:55 uh open box uh age this would give us a
+13:59 whole picture of what's what's left uh
+14:02 if the age goes up or down would be
+14:03 you're cleaning the backlog the average
+14:05 age
+14:05 should go down as well uh there's no pi
+14:08 yet but i just want to update and ensure
+14:10 that we're on this
+14:11 uh it's not it's not a off track uh
+14:14 number c craig on s2
+14:17 yeah i just i was looking through the
+14:19 the charts and i i noted that
+14:21 there was a spike in mean time to close
+14:23 yeah and
+14:24 just wanted to see if you had any
+14:25 insight into that for us this is the s2s
+14:27 the s1 looked fine yeah this is where
+14:31 the point be on age supplemental shards
+14:33 in the back end helps
+14:34 so i haven't seen a dip in age nor the
+14:37 count overall i think i think it's the
+14:39 latter
+14:40 we need to dig in a bit deeper in that
+14:42 and also
+14:43 the data lag i would like to re-evaluate
+14:46 once we have the whole picture when
+14:47 everything is synced in
+14:49 as well uh christy uh you have some
+14:51 insights
+14:55 yeah i'm just wondering if part of this
+14:56 could be the fact that we changed the
+14:58 severity across the board
+15:00 for mrs to s2
+15:03 and so we may have some older
+15:06 bugs in there that hadn't been addressed
+15:08 because they were at a lower severity
+15:09 now we've moved them to s2
+15:11 and maybe that caused a little spike
+15:15 uh that could be the case if we did it
+15:17 in a limited fashion
+15:18 it won't be a huge volume we also
+15:21 iterated after that to
+15:22 p9 priority uh since product owns
+15:25 prioritization so
+15:26 i i wouldn't account it entirely to that
+15:30 i mean this this isn't the in for a key
+15:32 review but um
+15:33 [Music]
+15:35 i know that they've gotten backed up on
+15:37 on those issues so
+15:39 if some some good portion of those are
+15:41 in for created or related then
+15:43 that might be lifting it as well
+15:47 i can take the the the deeper dig in and
+15:50 then provide an update next time
+15:52 i think we need extra debug slicing the
+15:55 data here
+16:02 so you would like to go to 0.8
+16:06 yeah we are now measuring s1s2 slo
+16:10 achievement with closed bugs
+16:13 but if you then look at the
+16:16 number of bugs it's exponential growth
+16:19 [Music]
+16:21 and then it would be trivial to us
+16:24 to achieve 100 slo achievement
+16:28 if you just look at closed bugs even
+16:30 though if there would be a major problem
+16:32 in the company
+16:33 99 of all bugs are overdue
+16:36 as long as i only close ones that are
+16:38 still within the slo
+16:40 i'll have great achievement so i think
+16:43 we shouldn't be looking at the closed
+16:44 bugs
+16:45 i think we should be looking at open box
+16:47 the entire
+16:48 population or percentage of those is
+16:51 within the slo time
+16:52 i think we're doing it the wrong way
+16:56 thanks for the thanks for the feedback
+16:57 said uh uh
+16:59 hence why we wanted to have the average
+17:02 age
+17:03 to to measure what's outside in the open
+17:06 we can
+17:06 make this iteration uh to measure also
+17:09 measure
+17:10 uh focus on the the age of all opened uh
+17:13 including open bugs this is all
+17:14 something we i have discussed with
+17:16 christopher in the next iteration as
+17:18 well
+17:18 and we're happy more than happy to
+17:20 adjust so
+17:21 the key yes go ahead so average age
+17:25 would get closer to it it's not what i'm
+17:27 proposing
+17:27 what i'm proposing is of the open box or
+17:30 percentages outside of slo
+17:33 so display it as a percentage you do now
+17:35 just do it about the open box not the
+17:37 closed one
+17:38 got it okay the exceeding slo for
+17:41 open box yeah
+17:44 or open bugs that are within slo so you
+17:47 have a chart that should go up and to
+17:49 the right like everything else
+17:54 sounds great we can take it to the uh
+17:55 the next uh
+17:57 data metrics workstream to deliver this
+17:60 cool
+18:00 thanks these are pretty much a little
+18:03 tricky mac you'll have to figure out how
+18:04 to
+18:05 um because we like to be able to have
+18:07 charts that we can historically
+18:09 reconstruct if we need to
+18:10 so when tickets close out you need to go
+18:12 through their history
+18:13 to figure out at this time when it was
+18:17 open
+18:17 did it breach the slo or not that's a
+18:20 good point this might be much
+18:21 harder computationally and so i i
+18:24 totally respect if we can do it for that
+18:27 reason
+18:32 uh cool nine craig
+18:36 yeah i just wanted to ask the team like
+18:38 i went through all the key
+18:39 meeting metrics everything looked in
+18:40 line with prior periods and
+18:42 looked good is there anything the team
+18:44 wants to call out especially that we
+18:45 should be watching
+18:49 yeah i'll call out sus um so
+18:53 the good news is in q4 we had our
+18:56 smallest decline
+18:58 over several quarters so we only went
+19:00 down by a tenth of a point
+19:02 um the quarter previous was point six or
+19:05 six tenths of a point and the quarter
+19:07 before that was a full point
+19:09 so we see this
+19:12 as an improvement even though it was
+19:14 still a decline but it's still a decline
+19:16 obviously we want this actually tracking
+19:18 in an upward direction we also don't
+19:19 have enough data to know whether or not
+19:21 this is an
+19:22 actual real trend up so i'm optimistic
+19:26 i think this is a good thing we have had
+19:28 a much keener focus
+19:30 on sus over the past several quarters so
+19:32 that's why i think okay
+19:33 the work that we've done i think
+19:35 actually is catching up
+19:37 and and getting noticed in sus but we
+19:40 got to keep an eye on it we can't
+19:42 we cannot assume that that's the case
+19:51 yeah and the bug discussion above um
+19:53 just kind of points out that like uh we
+19:55 have an underlying
+19:56 um problem right now in our metrics
+19:58 measurement so if we change the
+19:59 measurements to reflect that then
+20:00 hopefully we're in good shape
+20:01 uh if we don't and we flatline and
+20:04 address it
+20:05 so that we flatline uh open s1s and s2s
+20:07 you will see a temporary jump in
+20:09 and us above slos and as we
+20:12 clear out that backlog over that period
+20:14 of time
+20:18 and i have point c which is uh similar
+20:20 to infrastructure we need to get more
+20:21 security work prioritized we're hearing
+20:22 that from the team but neither that
+20:24 problem or that activity is sort of
+20:26 currently reflected in our security
+20:27 metrics so we have some work to do
+20:29 um long term to to make sure the we see
+20:33 things like that in the metrics
+20:34 and the measurements that we're making
+20:42 uh so back to you sid 10
+20:45 yeah the narrow mr rate seems um
+20:49 significantly below target and maybe i i
+20:52 hope that it would bounce back from
+20:54 december i think it bounced back but not
+20:56 back on target any any context there
+20:59 what's
+20:59 what's going on
+21:04 yeah so um uh
+21:07 with family and friends days we actually
+21:09 had some heavier
+21:11 vacation days um in january than we
+21:14 historically have
+21:16 one thing to note is that
+21:19 we are actually at a higher mr rate if
+21:21 you look at if you go back the last 18
+21:23 months
+21:23 we're actually at a higher nearer mr
+21:25 rate than we were back in
+21:27 uh each month this year so if you
+21:29 compare
+21:30 uh october to october november to
+21:32 november and just in january i'm sorry
+21:34 october november december and january uh
+21:38 comparatively to last year uh what
+21:40 you'll find is we're between a
+21:41 half point and a 1.5 mr rate above
+21:46 uh where we were in the month of
+21:47 previous year that's that's
+21:49 great context thank you christopher good
+21:52 work yeah so
+21:53 the expectation is is that uh february
+21:55 is a short month
+21:56 we were at i think 16 work days
+21:60 with friends and family day and uh other
+22:02 things
+22:03 um obviously us having power outages in
+22:05 texas doesn't help things either for the
+22:06 folks who are working in texas
+22:08 um but hopefully the rest of the team is
+22:10 being effective
+22:11 um i was hoping to see a better result
+22:13 right now but with four or five days
+22:14 particularly around
+22:15 uh release week um that's usually when
+22:18 we see do see a little bit higher
+22:19 activity
+22:20 um so that's not accounted for yet um
+22:23 but you know marches merch is when i'm
+22:25 expecting kind of see a real rebound
+22:27 much like we did last year awesome
+22:30 thanks
+22:31 the other context i'll give is we now do
+22:34 time
+22:34 series targets so when we change the
+22:36 target you'll see that reflected in the
+22:38 line
+22:38 so if we were to look back historically
+22:40 here the goal here was actually lower
+22:43 and christopher was ambitious and we
+22:44 kept raising and we kept meeting that so
+22:46 it should stair step here and we could
+22:47 go back and reconstruct that if we
+22:49 really wanted to
+22:50 and then ignoring the sort of the the
+22:52 seasonal dip here
+22:54 we raised it to i think 11 and then we
+22:56 realized we're kind of hitting that
+22:58 point of diminishing returns and the
+22:59 right thing to do business wise and this
+23:01 is in our fy 22 direction
+23:02 is hold the line at productivity
+23:06 but start to raise other things related
+23:08 to quality security
+23:10 availability and and whatnot um so
+23:12 that's kind of why you're seeing this
+23:13 bump is we raised it and we realized
+23:15 okay that's not the we shouldn't raise
+23:17 it anymore and we brought it back down
+23:18 to 10. so 10 will be the
+23:20 target going forward i'm going to try to
+23:21 get better a lot of other things while
+23:23 preventing this from dipping
+23:25 cool and i just want to call out that
+23:28 it's not neces
+23:29 higher mr rates should also help to
+23:31 address security and
+23:33 quality and other things because you're
+23:35 more productive so you can fix more
+23:36 things so it's not necessarily opposite
+23:38 but i i i agree with uh
+23:42 let's hold the line 10 is then is a
+23:44 great number and uh
+23:45 and focus on other indicators to improve
+23:48 that makes a ton of sense
+23:51 cool well said
+23:56 all right that's it for the agenda
+23:57 anyone want to vocalize anything else
+24:03 great well thanks everybody and i'm
+24:04 gonna go check on my four-year-old and
+24:06 see if she got
+24:07 whatever she needed so cheers and talk
+24:09 soon thanks

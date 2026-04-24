@@ -1,0 +1,29 @@
+19:15:35 Let’s review this week’s action items.
+19:15:46 A user has reported a Trade UI slowness issue for
+certain queries.
+19:15:59 The issue may be in the middleware, possibly
+Elastic queries, rather than the UI layer.
+19:16:22 Shamir, please take this up with high priority and
+aim to resolve it by next week.
+19:16:41 There is an enhancement needed in the contract
+store publisher.
+19:16:49 Payment objects are currently published, but invalid
+payments are not cancelled when trades are cancelled or
+completed.
+19:17:01 A flow should be added to publish cancellation
+events for these payments to maintain data consistency.
+19:17:23 Dinkya and Rahul will take this up as a medium-
+priority task and review progress in two weeks.
+19:17:46 An update was shared on infrastructure migration.
+19:17:51 The trade booking application is running on a
+RHEL 7 host.
+19:18:05 The migration work is expected to be completed
+within the next week.
+19:18:22 A Trade UI improvement was suggested to increase
+the search page size.
+19:18:30 Currently, 50 trades are loaded per search; this may
+be increased to 100.
+19:18:49 This is a straightforward task expected to be
+completed in the next few days.
+19:19:20 The meeting concluded with a reminder about the
+team dinner scheduled for tomorrow.
