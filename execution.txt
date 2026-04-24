@@ -1,0 +1,21 @@
+in terminal
+step 1: npm create vite@latest mom-vXn -- --template react
+
+step 2: cd mom-vXn
+
+step 3: npm install lucide-react
+
+step 4:npm install -D tailwindcss @tailwindcss/vite
+
+
+step 5:  replace the files
+	1) replace code in src/app.jsx file 
+		i.e code from "new App.jsx"
+	
+	2)replace code vite.config.js
+	
+	3)replace code .env file i.e replace Api key which i shared in WhatsApp or create your own api key and replace
+	4)replace code in app.css, indec.css
+
+step 6: npm run dev
+
