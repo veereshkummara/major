@@ -1,0 +1,48 @@
+Let me zip everything into a single download package:Download **`crop_ai_project.zip`** — it contains everything you need. Here's how to run it locally:
+
+---
+
+### 📦 What's Inside the ZIP
+```
+crop_ai_local/
+├── crop_prediction.py     ← Full ML pipeline
+├── streamlit_app.py       ← Web dashboard
+├── requirements.txt       ← Dependencies
+├── README.md              ← Full docs
+├── best_model.joblib      ← Pre-trained model (96.6% F1)
+├── .env.example           ← API key template
+└── plots/                 ← 9 pre-generated charts
+```
+
+---
+
+### ▶️ Run Locally (3 steps)
+
+**1 — Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**2 — Set your API key** (for AI recommendations)
+```bash
+# Mac/Linux
+export ANTHROPIC_API_KEY="sk-ant-..."
+
+# Windows CMD
+set ANTHROPIC_API_KEY=sk-ant-...
+```
+
+**3a — Run CLI pipeline**
+```bash
+python crop_prediction.py
+```
+
+**3b — Run Streamlit dashboard**
+```bash
+streamlit run streamlit_app.py
+# Opens at http://localhost:8501
+```
+
+---
+
+> **Note:** The pre-trained `best_model.joblib` is included so you can run predictions instantly without retraining. XGBoost is optional — the pipeline works fine without it.
