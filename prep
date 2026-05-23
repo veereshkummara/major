@@ -1,0 +1,58 @@
+Meeting Summarizer: AI Tool that Converts Meeting Transcripts into Action Plans
+
+Slide 1 — Title (20 seconds)
+Good morning everyone. I'm K. Veeresh, presenting our paper titled "Meeting Summarizer: AI Tool that Converts Meeting Transcripts into Action Plans" from Vel Tech University, Chennai. This work is co-authored with E. Nandu Royal and our guide Dr. D. Dhinakaran.
+
+Slide 2 — Outline (15 seconds)
+I'll walk you through the motivation, our proposed system, the model architecture, evaluation results, and conclude with future directions. Let's get started.
+
+Slide 3 — Introduction (45 seconds)
+With the rapid shift to virtual and hybrid work environments, the number of professional meetings has increased significantly. Every meeting generates large volumes of unstructured conversational data — and the challenge is not recording them, it's making sense of them afterward.
+Participants often struggle to recall who was assigned what, what decisions were made, and what the deadlines were. This leads to missed follow-ups, poor accountability, and reduced organizational efficiency.
+Existing tools — whether ASR-based recorders or generic summarizers — only give you a wall of text. They don't tell you what to do next. That gap is exactly what we address.
+
+Slide 4 — Problem Statement (40 seconds)
+Let me formalize the problem. Current meeting tools fall short in three ways.
+First, transcript-only systems produce verbatim text — but reading through a 30-minute transcript to find your two action items is inefficient and cognitively demanding.
+Second, summarization tools produce narrative summaries — descriptive, not actionable. They tell you what was discussed, not what needs to be done.
+Third, ML-based action extraction systems exist in research, but they operate in isolation — not integrated with speech processing — and lack multilingual support.
+Our objective is simple: design one end-to-end system that takes raw audio or transcript as input and produces a structured, actionable plan with owners and deadlines as output.
+
+Slide 5 — Related Work (30 seconds)
+Prior work in this space falls into three categories. Transcript-based documentation systems improve accessibility but put the burden of interpretation on the user. Summarization approaches using extractive and abstractive transformer models — like BERT and T5 — produce readable summaries but are not action-oriented. And ML-based action extraction methods using dialogue act classification have shown promise but remain siloed pipelines.
+Our work integrates all three into a single modular system.
+
+Slide 6 — Proposed System Architecture (60 seconds)
+Here is the overall architecture. The system has five key modules.
+The Audio Processing module takes either a live stream or recorded file and converts it to text using an ASR engine with multilingual support and timestamping.
+The Speaker Identification module assigns speaker labels to each utterance — so we always know who said what.
+The NLP Pipeline normalizes text, segments sentences, performs named entity recognition, and categorizes each utterance as a discussion point, decision, question, or action proposal.
+The Summarization Engine uses transformer-based models to generate concise, contextually accurate summaries at both the meeting level and per-speaker level.
+Finally, the Action Plan Generation module extracts tasks, identifies the responsible participant, and detects deadlines — outputting a structured action plan ready for immediate use.
+The entire architecture is modular and supports both cloud and local deployment for privacy-sensitive environments.
+
+Slide 7 — System Workflow (30 seconds)
+The end-to-end workflow follows a clean pipeline — starting from audio capture, through speech-to-text conversion and speaker labeling, into NLP-based topic and intent analysis, action item detection, summary generation, and finally producing the structured action plan. Each stage feeds the next, making the system both coherent and extensible.
+
+Slide 8 — Dataset (25 seconds)
+We used two datasets. The Meeting Audio and Transcript Dataset captures features like audio file, speaker ID, timestamp, language, and ground truth transcription — used to train our ASR and summarization modules.
+The Action Annotation Dataset annotates utterances with action type, assigned participant, deadline, and confidence score — used to train the action extraction model.
+The annotated data was split 80:20 for training and testing.
+
+Slide 9 — Model Architecture & Implementation (30 seconds)
+The core implementation uses a hybrid architecture. ASR models handle audio-to-text conversion. Transformer-based NLP models handle summarization and semantic understanding. A supervised action classification model detects tasks, owners, and deadlines from the processed transcript.
+The web application was built using Python Flask. Each extracted action item carries a confidence score, and a feedback mechanism allows the system to iteratively improve accuracy over time.
+
+Slide 10 — Results & Discussion (50 seconds)
+Our evaluation covered three dimensions.
+For transcription accuracy, the system achieved an average Word Error Rate of just 6.85%, corresponding to about 93% accuracy — competitive with state-of-the-art ASR systems on meeting-domain audio.
+For summarization quality, we measured ROUGE scores: ROUGE-1 of 0.82, ROUGE-2 of 0.74, and ROUGE-L of 0.80 — indicating strong overlap between generated and reference summaries.
+For action extraction, the system achieved a Precision of 0.88, Recall of 0.86, and an F1-score of 0.87. Owner attribution accuracy was 91% and deadline detection accuracy was 84%.
+And in our user study, task identification time was reduced by 65% compared to manual transcript review. 87% of users reported improved clarity on responsibilities, and 91% agreed it reduced post-meeting cognitive load. You can see the extracted action items table here — tasks, owners, and deadlines, all automatically generated.
+
+Slide 11 — Conclusion & Future Work (25 seconds)
+To summarize — we presented the Meeting Summarizer, an end-to-end AI system that converts unstructured meeting transcripts into structured, accountable action plans. It integrates STT, transformer summarization, and supervised action extraction in a single modular pipeline, with strong quantitative results and validated usability improvements.
+For future work, we plan to expand multilingual datasets, conduct large-scale real-world validation, develop personalized adaptive summarization, and integrate with productivity platforms like Microsoft Teams and Slack.
+
+Slide 12 — Thank You (10 seconds)
+Thank you. I'm happy to take any questions.
