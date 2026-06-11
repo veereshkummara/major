@@ -69,3 +69,21 @@ Sprint review
 Spring retrospective 
 What u do if sprit delayed
 Popups in selenium(alert)
+
+
+
+
+
+Js event bubbling 
+Collection framework 
+Diff linkedlist and array list 
+Stored procedure and triggers
+Agile ceremonies and diff agile vs waterfall
+Sdlc cycle
+Diff flex box and grid
+Html semantic tags
+How you manage project workflow with jira
+regression testing vs sanity testing 
+What is immutability in java
+Floyds algorithm 
+Exception handling in java.
